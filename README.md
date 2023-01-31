@@ -1,5 +1,7 @@
 Entrega  proyecto final de Coderhouse El proyecto Adoptame Tandil surge en 2017 como una necesidad de reinsertar perros de zoonosis que tuvieron problemas de comportamientos hacia animales y personas. A partir de ese momento un grupo de voluntarios , especialistas en comportamiento canino y veterinarios trabajan de manera conjunta para cumplir estos objetivos. Finalmente dado que este curso tiene como objetivo generar una pagina web y Adoptame Tandil presentaba esta necesidad decidi encarar este proyecto con la finalidad de afianzar los conocimientos que fui adquiriendo durante el curso y mejorarlos para cumplir las necesidades de este objetivo y administrar su pagina como voluntario
 
+Link para ver el video explicativo https://drive.google.com/drive/folders/10Hu2i-X8lfePA1_SpgFyiJKgCIEIFydG?usp=sharing
+
 1) En cuanto a la pagina web se puede encontrar: 
 
 A)Un html base que hace herencia a todas las vistas de la pagina
