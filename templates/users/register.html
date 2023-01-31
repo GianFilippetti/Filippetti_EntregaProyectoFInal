@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+    Registro
+{% endblock %}
+
+{% block header %}
+
+{% endblock %}
+
+{% block content %}
+    <h1>Ingresa sus datos para registrarse</h1>
+    {% if form %}
+        <form action="" method="POST">
+            {% csrf_token %}
+                <table>{{form.as_table}}</table>
+                <input type="submit" value="Ingresar">
+        </form>
+    {% endif %}
+    {% if errors %}
+        <p style="color: red;">{{errors}}</p>
+    {% endif %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+{% endblock %}

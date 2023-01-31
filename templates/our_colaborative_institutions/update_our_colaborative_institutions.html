@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Actualizar institucion colaborativa
+{% endblock %}
+
+{% block content %}
+
+{% if colaborative_institution_form  %}
+<form action="" method="POST">
+{% csrf_token %}
+<table>
+    {{colaborative_institution_form.as_table}}
+</table>
+<p><input type="submit" value="Actualizar institucion colaborativa" ></p>
+</form>
+
+    {% endif %}
+
+    {% if colaborative_institution_errors %}
+        <h2 style="color: red;">Errores</h2>
+        {{colaborative_institution_errors}}
+    {% endif %}
+    {% if message %}
+        <h2 style="color: green;">{{message}}</h2>
+    {% endif %}
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+{% endblock %}

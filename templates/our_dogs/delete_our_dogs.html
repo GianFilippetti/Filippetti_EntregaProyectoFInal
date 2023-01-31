@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Eliminar perro
+{% endblock %}
+
+{% block content %}
+
+    <h2>Esta seguro que desea eliminar al perro {{object.name}}</h2>
+
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="Borrar" style="color: red;">
+    </form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+{% endblock %}

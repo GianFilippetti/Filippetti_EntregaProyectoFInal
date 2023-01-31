@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+
+
+{% block title %}
+    Inicio
+{% endblock %}
+
+{% block header %}
+<form class="form-inline my-2 my-lg-0" action="http://127.0.0.1:8000/" method="GET"> 
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+</div>
+</nav>
+{% endblock %}
+
+{% block content %}
+
+        <h3 style="color: blue;">¿Que es Adoptame Tandil?</h3>
+        <h4>
+            Adoptame Tandil es un proyecto que inicia a fines del 2017, a través de la contratación por parte del municipio de Tandil de Franco Filippetti delegado de la empresa EDUCAN Tandil de adiestramiento canino para trabajar con los perros del predio de zoonosis. 
+            <br>
+            Hoy en día especialistas en comportamiento canino trabajan junto a veterinarios del área de zoonosis y un grupo de voluntarios.
+            <br>
+            <h4 style="color: red;">Este conjunto de personas, realizan diferentes tareas a diario en pos de mejorar la salud comportamental  de los perros hasta conseguirles una familia y que finalmente les permita acceder a la felicidad que merecen.</h5>
+            <br>
+            <br>
+    <body>
+        {% if message %}
+            {{message}}
+        {% endif %}
+    </body>
+<br>
+<br>
+<br>
+<br>
+<br>
+{% endblock %}
+

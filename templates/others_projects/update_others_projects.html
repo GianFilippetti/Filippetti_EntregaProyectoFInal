@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Actualizacion del proyecto
+{% endblock %}
+
+{% block content %}
+
+{% if others_projects_form  %}
+<form action="" method="POST">
+{% csrf_token %}
+<table>
+    {{others_projects_form.as_table}}
+</table>
+<p><input type="submit" value="Actualizar proyecto" ></p>
+</form>
+
+    {% endif %}
+
+    {% if others_projects_form_errors %}
+        <h2 style="color: red;">Errores</h2>
+        {{others_projects_form_errors}}
+    {% endif %}
+
+    {% if message %}
+        <h2 style="color: green;">{{message}}</h2>
+
+    {% endif %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+{% endblock %}
